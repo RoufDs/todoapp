@@ -3,7 +3,7 @@ import { Button, InputGroup, FormControl, Form } from 'react-bootstrap'
 
 function TodoForm() {
 
-    const [name, setName] = useState("")
+    const [name, setName] = useState("");
 
     const handleChange = e => {
         setName(e.target.value);
